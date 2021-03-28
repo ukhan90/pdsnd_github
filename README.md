@@ -8,7 +8,10 @@ Udacity Bikeshare Project
 Created a prototype to explore the US bikeshare data that calculates the statistics and provide users the requested output in an interactive environment with the possibility to filter results.
 
 ### Files used
-Include the files used
+washington.csv
+chicago.csv
+new-york-city.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Pandas.pydata.org. 2021. User Guide — pandas 1.2.2 documentation. [online]
+Available at: <https://pandas.pydata.org/docs/user_guide/index.html> [Accessed 18 February 2021].
