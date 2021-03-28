@@ -42,11 +42,11 @@ def get_filters():
     """
     print('Hello there! Let\'s explore some US bikeshare data!')
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
-    city = check_input("Which city data would you like to see: chicago, new york city or washington?",1)
+    city = check_input("Which city data would you like to see: chicago, new york city or washington? \n Input is not case sensitive\n",1)
     # get user input for month (all, january, february, ... , june)
-    month = check_input("For which Month (all, january, ... june)?", 2)
+    month = check_input("For which Month (all, january, ... june)? \n Input is not case sensitive\n", 2)
     # get user input for day of week (all, monday, tuesday, ... sunday)
-    day = check_input("For which day? (all, monday, tuesday, ... sunday)", 3)
+    day = check_input("For which day? (all, monday, tuesday, ... sunday) \n Input is not case sensitive\n", 3)
     print('-'*80)
     return city, month, day
 
@@ -193,7 +193,7 @@ def main():
         trip_duration_stats(df)
         user_stats(df,city)
 
-        restart = input('\nIf you like to restart then enter yes or no.\n')
+        restart = input('\nIf you like to restart then enter yes or no.\n Input is not case sensitive \n"')
         if restart.lower() != 'yes':
             break
 
