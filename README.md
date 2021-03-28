@@ -2,10 +2,10 @@
 April 28, 2020.
 
 ### Project Title
-Replace the Project Title
+Udacity Bikeshare Project
 
 ### Description
-Describe what your project is about and what it does
+Created a prototype to explore the US bikeshare data that calculates the statistics and provide users the requested output in an interactive environment with the possibility to filter results.
 
 ### Files used
 Include the files used
