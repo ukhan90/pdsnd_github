@@ -47,7 +47,7 @@ def get_filters():
     month = check_input("For which Month (all, january, ... june)?", 2)
     # get user input for day of week (all, monday, tuesday, ... sunday)
     day = check_input("For which day? (all, monday, tuesday, ... sunday)", 3)
-    print('-'*40)
+    print('-'*80)
     return city, month, day
 
 def load_data(city, month, day):
@@ -110,7 +110,7 @@ def time_stats(df):
     print('Most popular start hour:', popular_common_start_hour)
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*80)
 
 
 def station_stats(df):
@@ -135,7 +135,7 @@ def station_stats(df):
     print('Most popular combination of Start Station and End Station trip:\n', popular_combination_station)
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*80)
 
 
 def trip_duration_stats(df):
@@ -155,7 +155,7 @@ def trip_duration_stats(df):
     print('Mean travel time:', mean_travel_time)
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*80)
 
 
 def user_stats(df,city):
@@ -180,7 +180,7 @@ def user_stats(df,city):
         earliest_year = df['Birth Year'].min()
         print('Earliest Year:',earliest_year)
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*80)
 
 
 def main():
